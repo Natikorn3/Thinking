@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: rgb(40, 30, 30);
+  display: flex;
+}
+
+.search-bar input, .search-bar label {
+  display: block;
+  padding: 5px;
+
+}
+
+.filter-table {
+  margin: 20px;
+}
+.product-table {
+  width: 300px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.product-table th, .product-Table,td {
+ border: 1px solid silver;
+ padding: 2px 4px;
+}
+
+.category-row {
+  text-align: center;
+}
+
+.text-red {
+  color: red;
+}
